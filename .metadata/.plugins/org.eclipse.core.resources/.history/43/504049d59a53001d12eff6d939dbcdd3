@@ -33,11 +33,11 @@ int main(void) {
 
 	ordenarArray(notebooks,10);
 
-	printf("\nID       PROCESADOR          MARCA           PRECIO          ");
-	printf("\n----------------------------------------------------------------");
+	printf("ID       PROCESADOR          MARCA           PRECIO          ");
+	printf("----------------------------------------------------------------");
 	for(i=0;i<10;i++)
 	{
-		printf("\n%4d      %10s                %10s            $%5d            ",notebooks[i].id,notebooks[i].procesador,notebooks[i].marca,notebooks[i].precio);
+		printf("%4d      %10s                %10s            $%5d            ",notebooks[i].id,notebooks[i].procesador,notebooks[i].marca,notebooks[i].precio);
 	}
 
 	return EXIT_SUCCESS;
