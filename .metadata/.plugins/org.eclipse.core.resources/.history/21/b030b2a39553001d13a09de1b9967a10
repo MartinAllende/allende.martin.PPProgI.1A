@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int aplicarDescuento(int valorInicial);
+
+int main(void)
+{
+	int precio = 1000;
+	int precioConDescuento;
+
+	precioConDescuento = aplicarDescuento(precio);
+}
+
+int aplicarDescuento(int valorInicial)
+{
+	int retorno;
+
+	retorno = valorInicial * 0,95;
+
+	return retorno;
+
+}

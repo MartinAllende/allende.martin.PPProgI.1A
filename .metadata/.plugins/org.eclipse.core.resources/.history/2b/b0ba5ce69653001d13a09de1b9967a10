@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int contarCaracteres(char cadena[],char caracter);
+
+int main(void) {
+
+	int retorno;
+
+	retorno = contarCaracteres("allende", 'e');
+
+	printf("\nSe repite : %d de veces", retorno);
+
+	return EXIT_SUCCESS;
+}

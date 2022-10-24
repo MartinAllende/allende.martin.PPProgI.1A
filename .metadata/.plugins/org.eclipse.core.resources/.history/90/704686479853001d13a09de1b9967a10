@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+typedef struct
+{
+	int id;
+	char procesador[20];
+	char marca[20];
+	int precio;
+}eNotebook;
+
+int ordenarArray(eNotebook estructura[],int tamEstructura);
+int main(void) {
+	eNotebook notebooks[20]=
+			{{1000,"intel","dell",5000}
+
+			};
+	ordenarArray(notebooks,20);
+	return EXIT_SUCCESS;
+}
